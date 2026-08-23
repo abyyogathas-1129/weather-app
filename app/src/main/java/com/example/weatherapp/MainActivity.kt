@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvHumidity: TextView
     private lateinit var tvWindSpeed: TextView
 
-    private val apiKey = "6f801927cfe8b6af82bb62e17b50b87c"
+    private val apiKey = BuildConfig.WEATHER_API_KEY
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
