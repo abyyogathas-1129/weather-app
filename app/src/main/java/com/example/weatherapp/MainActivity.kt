@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvHumidity: TextView
     private lateinit var tvWindSpeed: TextView
 
-    private val apiKey = "1e023546e6c1ec286ff2927d0571f4b3"
+    private val apiKey = "6f801927cfe8b6af82bb62e17b50b87c"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
